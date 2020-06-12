@@ -1,0 +1,121 @@
+<html>
+<head>
+<title>Dark Neumorphism</title>
+<style>
+	@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,800,900&dispaly=swap');
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	font-family:'Poppins',sans-seriff;
+}
+body
+{
+	display:flex;
+	justify-content: center;
+	align-items:center;
+	min-height: 100vh;
+	background:#003300;
+}
+.form
+{
+	position:relative;
+	width:350px;
+	padding:40px 40px 60px;
+	background:#003300;
+	border-radius:10px;
+	text-align:center;
+	box-shadow:-5px -5px 10px rgba(255,255,255,0.05);
+	box-shadow:-5px -5px 10px rgba(255,255,255,0.05);
+}
+.form h2
+{
+	color:#c7c7c7;
+	text-transform:uppercase;
+}
+.form p
+{
+	color:#c7c7c7;
+}
+.form .input
+{
+	text-align:left;
+	margin-top:40px;
+}
+.form .input .inputBox
+{
+	margin-top:20px;
+}
+.form .input .inputBox label
+{
+	display:block;
+	color:#fff;
+	margin-bottom:5px;
+	font-size:18px;
+}
+.form .input .inputBox input
+{
+	width:100%;
+	height:50px;
+	background:#00FFFF;
+	border:none;
+	outline:none;
+	border-radius:40px;
+	padding:5px 15px;
+	color:#000000;
+	font-size:18px;
+	box-shadow:inset -2px -2px 6px rgba(255,255,255,0.05),
+	           inset 2px 2px 6px rgba(0,0,0,0.5);
+}
+.form .input .inputBox input:hover
+{
+	background-color:#fff;
+color:#0000FF;
+}
+
+.form .input .inputBox input[type="submit"]:active
+{
+	color:#4682B4;
+	margin-top:20px;
+	box-shadow:inset -2px -2px 6px rgba(255,255,255,0.05),
+	           inset 2px 2px 6px rgba(0,0,0,0.5);
+}
+.form .input .inputBox input[type="submit"]:hover
+{
+	background-color:#fff;
+color:#000;
+}
+</style>
+<script type="text/javascript">
+	function hello()
+	{
+		alert("Your form is Submitted");
+	}
+</script>
+</head>
+<body>
+	<div class="form">
+		<h2>Registration Form</h2>
+		<p>Fill out the form carefully</p>
+	<div class="input">
+		<div class="inputbox">
+		<label>Username</label>
+		<input type="text"name=""placeholder="Enter your name">
+	</div>
+	<div class="inputbox">
+		<label>E-mail</label>
+		<input type="text"name=""placeholder="Enter your email">
+	</div>
+	<div class="inputbox">
+		<label>Password</label>
+		<input type="password"name=""placeholder="Enter your Password">
+	</div>
+	<div class="inputbox">
+		<input type="submit"onclick="hello()"value="Submit">
+	</div>
+</div>
+</div>
+</div>
+</body>
+</html>
